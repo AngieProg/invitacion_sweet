@@ -39,6 +39,7 @@ export default {
         hero: "url('assets/images/photo_background.jpg')",
         family: "url('assets/images/background_sabana.jpg')",
         circulo: "url('assets/icons/circuloRosa.png')",
+        banner: "url('assets/icons/banner.png')",
       },
       screens: {
         wide: "1440px",

@@ -1,25 +1,40 @@
 import { separador } from "../assets/icons";
 import { padres, padrinos } from "../assets/images";
-import Titulo from "../components/Titulo";
 
 const Familia = () => (
-  <div className="relative flex-1 flex justify-center items-center h-[100vh] bg-family bg-cover bg-center">
+  <div className="relative flex-1 flex justify-center items-center h-[100vh]   bg-family bg-cover bg-center">
     <div className="absolute flex flex-col items-center justify-center w-[75vh] h-[90vh] bg-white">
-      <Titulo titulo1="Mis Padres" />
-      <img src={padres} alt="Padres" className="w-[350px] h-[220px]" />
-      <img
-        src={separador}
-        alt="Separador"
-        className="w-[300px] h-[20px] my-4"
-      />
+      {/* Padres */}
+      <div className="flex flex-col items-center pt-6">
+        <h1 className="font-mea text-4xl mb-1 text-dark-brown mt-8">
+          Mis Padres
+        </h1>
+        <img
+          src={separador}
+          alt="Separador"
+          className="w-[200px] h-[20px] mb-5"
+        />
+      </div>
+      <img src={padres} alt="Padres" className="w-[250px] h-[180px]" />
+      <p className="font-sofia text-2xl text-dark-brown w-[250px] mt-2">
+        María del Carmen MartÍnez Valdez& Horacio Pablo Flore
+      </p>
 
-      <Titulo titulo1="Mis Padrinos de Velación" />
-      <img src={padrinos} alt="Padres" className="w-[350px] h-[220px]" />
-      <img
-        src={separador}
-        alt="Separador"
-        className="w-[300px] h-[20px] my-4"
-      />
+      {/* Padrinos */}
+      <div className="flex flex-col items-center pt-6">
+        <h1 className="font-mea text-3xl mb-1 text-dark-brown">
+          Mis Padrinos de Velación
+        </h1>
+        <img
+          src={separador}
+          alt="Separador"
+          className="w-[200px] h-[20px] mb-5"
+        />
+      </div>
+      <img src={padrinos} alt="Padres" className="w-[250px] h-[180px]" />
+      <p className="font-sofia text-2xl text-dark-brown w-[300px] mt-2">
+        María Guadalupe Martínez Valdez & Rigoberto Baltazar de Santiago
+      </p>
     </div>
   </div>
 );

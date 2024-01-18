@@ -7,14 +7,15 @@ const Hero = () => (
       MIS XV AÑOS
     </h1>
     <img src={portada} alt="foto portada" className="w-[330px] h-[470px] " />
-    <div>
-      {/* <img src={banner} /> */}
+
+    <div className="flex items-center justify-evenly bg-banner bg-cover w-[400px] h-[60px] my-4">
+      <div className="w-[10] h-[10]" />
       <h1 className="font-mea text-6xl mb-1 text-dark-brown my-5">Valentina</h1>
     </div>
 
     <img src={separadorDorado} alt="separador" className="" />
 
-    <table className="table-fixed text-xl text-center w-[500px] border-collapse border-spacing-2 border border-soft-brown">
+    <table className="table-fixed text-xl text-center text-montserrat w-[500px] border-collapse border-spacing-2 border border-soft-brown">
       <tbody>
         <tr>
           <td className="border border-soft-brown text-dark-brown px-3 py-3">
