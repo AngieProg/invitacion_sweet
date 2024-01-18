@@ -6,7 +6,8 @@ import {
   whatsapp,
   persona,
   reloj,
-} from "./icons";
+  circuloRosa,
+} from "./../assets/icons";
 
 import {
   galeria1,
@@ -18,7 +19,7 @@ import {
   hisotria1,
   iglesiaFoto,
   salon,
-} from "./images";
+} from "./../assets/images";
 
 export const ubicaciones = [
   {
@@ -73,18 +74,16 @@ export const datosInvitado = [
     label: "PASES",
     input: "4",
   },
-  {
-    icon2: reloj,
-    label: "MESA",
-    input: "8",
-  },
-  {
-    /*{
-      icon2: cuenta,
-      label: "ASIENTO",
-      input: "3-5",
-    },*/
-  },
+  // {
+  //   icon2: reloj,
+  //   label: "MESA",
+  //   input: "8",
+  // },
+  // {
+  //   icon2: circuloRosa,
+  //   label: "ASIENTO",
+  //   input: "3-5",
+  // },
 ];
 
 export const slide = [
