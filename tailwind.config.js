@@ -11,6 +11,7 @@ export default {
       "2xl": ["24px", "29.26px"],
       "3xl": ["28px", "50px"],
       "4xl": ["48px", "58px"],
+      "6xl": ["60px", "68px"],
       "8xl": ["96px", "106px"],
     },
     extend: {
@@ -28,6 +29,8 @@ export default {
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
+        "soft-brown": "#E1B954",
+        "dark-brown": "#80673A",
       },
       boxShadow: {
         "3xl": "10px 10px 10px 10px rgba(0, 0, 0, 0.3)",
@@ -35,6 +38,7 @@ export default {
       backgroundImage: {
         hero: "url('assets/images/photo_background.jpg')",
         family: "url('assets/images/background_sabana.jpg')",
+        circulo: "url('assets/icons/circuloRosa.png')",
       },
       screens: {
         wide: "1440px",

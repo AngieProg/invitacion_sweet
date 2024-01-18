@@ -14,6 +14,7 @@ import separadorDorado from "./separador_dorado.png";
 import whatsapp from "./whatsapp.png";
 import persona from "./persona.png";
 import reloj from "./reloj.png";
+import circuloRosa from "./circulo_rosa.png";
 
 export {
   banner,
@@ -22,6 +23,7 @@ export {
   email,
   flechaDer,
   flechaIzq,
+  circuloRosa,
   persona,
   reloj,
   gps,
