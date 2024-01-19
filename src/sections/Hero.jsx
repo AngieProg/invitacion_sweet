@@ -1,12 +1,22 @@
-import { portada } from "../assets/images";
+import { esqDerDorada, esqIzqDorada, portada } from "../assets/images";
 import { separadorDorado } from "../assets/icons";
 
 const Hero = () => (
-  <div className="flex flex-col items-center justify-center">
+  <div className="relative flex flex-col items-center justify-center">
+    <img
+      src={esqIzqDorada}
+      alt="separador"
+      className="absolute top-0 left-0 w-[200px] h-[200px]"
+    />
+    <img
+      src={esqDerDorada}
+      alt="separador"
+      className="absolute -bottom-10 right-0 w-[200px] h-[200px]"
+    />
     <h1 className="font-montserrat text-3xl mb-3 text-dark-brown mt-6">
       MIS XV AÑOS
     </h1>
-    <img src={portada} alt="foto portada" className="w-[330px] h-[470px] " />
+    <img src={portada} alt="foto portada" className="w-[300px] h-[440px] " />
 
     <div className="flex items-center justify-evenly bg-banner bg-cover w-[400px] h-[60px] my-4">
       <div className="w-[10] h-[10]" />

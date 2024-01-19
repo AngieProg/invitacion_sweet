@@ -6,7 +6,7 @@ import {
   whatsapp,
   persona,
   reloj,
-  circuloRosa,
+  //circuloRosa,
 } from "./../assets/icons";
 
 import {
@@ -86,7 +86,7 @@ export const datosInvitado = [
   // },
 ];
 
-export const slide = [
+export const slideData = [
   {
     id: 1,
     img: galeria1,

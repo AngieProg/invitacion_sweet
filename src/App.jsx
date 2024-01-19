@@ -4,9 +4,9 @@ import {
   Galeria,
   Invitado,
   Message,
-  MiHistoria,
+  //MiHistoria,
   Ubicaciones,
-  Agradecimiento,
+  //Agradecimiento,
   Hero,
   Confirmacion,
 } from "./sections";
@@ -22,27 +22,27 @@ const App = () => (
     <section className="padding">
       <Invitado />
     </section>
+    <section>
+      <Ubicaciones />
+    </section>
     <section className="padding">
       <Contador />
     </section>
     <section>
       <Familia />
     </section>
-    <section className="bg-soft-pink padding-x py-10">
+    {/* <section className="bg-soft-pink padding-x py-10">
       <MiHistoria />
-    </section>
-    <section className="bg-dark-pink padding-x sm:py-32 py-16 w-full">
-      <Ubicaciones />
-    </section>
+    </section> */}
     <section className="padding">
       <Galeria />
     </section>
     <section className="padding">
       <Confirmacion />
     </section>
-    <section className="padding-x padding-t pb-8 bg-dark-pink">
+    {/* <section className="padding-x padding-t pb-8 bg-dark-pink">
       <Agradecimiento />
-    </section>
+    </section> */}
   </main>
 );
 
