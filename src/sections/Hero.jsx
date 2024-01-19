@@ -1,8 +1,13 @@
 import { esqDerDorada, esqIzqDorada, portada } from "../assets/images";
 import { separadorDorado } from "../assets/icons";
+import Song from "../components/Song";
 
 const Hero = () => (
   <div className="relative flex flex-col items-center justify-center">
+    <div className="fixed items-end cursor-pointer right-[40px] bottom-[140px]">
+      <Song />
+    </div>
+
     <img
       src={esqIzqDorada}
       alt="separador"
