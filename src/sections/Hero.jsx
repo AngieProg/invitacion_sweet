@@ -4,15 +4,18 @@ import Song from "../components/Song";
 
 const Hero = () => (
   <div className="relative flex flex-col items-center justify-center">
+    {/* Boton play/pausa de música */}
     <div className="fixed items-end cursor-pointer right-[40px] bottom-[140px]">
       <Song />
     </div>
 
+    {/* Separador esquina izquierda */}
     <img
       src={esqIzqDorada}
       alt="separador"
       className="absolute top-0 left-0 w-[200px] h-[200px]"
     />
+    {/* Separador esquina derecha */}
     <img
       src={esqDerDorada}
       alt="separador"
@@ -21,6 +24,8 @@ const Hero = () => (
     <h1 className="font-montserrat text-3xl mb-3 text-dark-brown mt-6">
       MIS XV AÑOS
     </h1>
+
+    {/* Imagen principal */}
     <img src={portada} alt="foto portada" className="w-[300px] h-[440px] " />
 
     <div className="flex items-center justify-evenly bg-banner bg-cover w-[400px] h-[60px] my-4">
@@ -28,19 +33,21 @@ const Hero = () => (
       <h1 className="font-mea text-6xl mb-1 text-dark-brown my-5">Valentina</h1>
     </div>
 
+    {/* Adorno superior de la tabla */}
     <img src={separadorDorado} alt="separador" className="" />
 
-    <table className="table-fixed text-xl text-center text-montserrat w-[500px] border-collapse border-spacing-2 border border-soft-brown">
+    {/* Datos de la tabla */}
+    <table className="table-fixed text-xl text-center font-montserrat w-[500px] border-collapse border-spacing-2 border border-soft-brown">
       <tbody>
         <tr>
           <td className="border border-soft-brown text-dark-brown px-3 py-3">
-            CAPILLA SAN MARTIN
+            CATEDRAL TOLUCA DE LERDO
           </td>
           <td className="border border-soft-brown text-dark-brown px-3 py-3">
-            21 DE ABRIL 2024
+            27 DE ABRIL 2024 13:00
           </td>
           <td className="border border-soft-brown text-dark-brown px-3 py-3">
-            SALON RUIZ SOLARES
+            SALÓN DALIAS PARIS
           </td>
         </tr>
       </tbody>

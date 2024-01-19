@@ -1,14 +1,16 @@
 import { ubicaciones } from "../constants/index";
 import CardFormato from "../components/CardFormato";
 import CardUbicacion from "../components/CardUbicacion";
+import Separador from "../components/separador";
 
 const Ubicacion = () => (
-  <section className="mt-10 flex justify-center">
-    <div className="flex flex-col justify-center items-center w-[90%] py-6 bg-white-400  text-center">
+  <section className="flex justify-center">
+    <div className="flex flex-col justify-center items-center w-[90%]  bg-white-400  text-center">
       <CardFormato
         titulo1="¿DÓNDE Y CUÁNDO?"
         titulo2="Ubicaciones e Itinerario"
       />
+      <Separador />
       <div className="flex flex-wrap gap-10 justify-center">
         {ubicaciones.map((ubicacion, index) => (
           <div
