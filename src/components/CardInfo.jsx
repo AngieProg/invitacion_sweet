@@ -29,8 +29,12 @@ const CardInfo = ({
     {parrafo && (
       <p className="font-montserrat text-slate-gray text-sm mb-4">{parrafo}</p>
     )}
-    {btn1 && <Boton label={btn1} img={confirmacion} />}
-    {btn2 && <Boton label={btn2} img={confirmacion} />}
+    <div data-aos="flip-up">
+      {btn1 && <Boton label={btn1} img={confirmacion} />}
+    </div>
+    <div data-aos="flip-down">
+      {btn2 && <Boton label={btn2} img={confirmacion} />}
+    </div>
   </div>
 );
 

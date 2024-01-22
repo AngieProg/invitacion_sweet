@@ -51,19 +51,26 @@ const Contador = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center border-dashed border-primary border-4 ">
+    <div className="flex flex-col items-center justify-center border-dashed border-primary border-4">
       {/* Titulo */}
-      {showEndScreen.show ? (
-        <h3 className="font-mea text-4xl px-14 py-4">
-          {showEndScreen.message}
-        </h3>
-      ) : (
-        <Titulo titulo1="¡Solo Faltan!" />
-      )}
+      <div data-aos="fade-right">
+        {showEndScreen.show ? (
+          <h3 className="font-mea text-4xl px-14 py-4">
+            {showEndScreen.message}
+          </h3>
+        ) : (
+          <Titulo titulo1="¡Solo Faltan!" />
+        )}
+      </div>
 
       {/* Imagenes centrales */}
       <div className="flex bg-white justify-center w-[80vh]">
-        <img src={globos} alt="globos" className="w-[250px] h-[360px]" />
+        <img
+          src={globos}
+          alt="globos"
+          className="w-[250px] h-[360px]"
+          data-aos="fade-up"
+        />
         <img
           src={imgContador}
           alt="quinceañera"

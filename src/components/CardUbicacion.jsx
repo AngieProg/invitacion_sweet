@@ -20,7 +20,9 @@ const CardUbicacion = ({
       data-aos="zoom-out-up"
     />
     {titulo1 && <h3 className="font-sofia text-base py-2">{titulo1}</h3>}
-    <h2 className="font-mea text-2xl py-3">{titulo2}</h2>
+    <h2 className="font-mea text-2xl py-3" data-aos="fade-right">
+      {titulo2}
+    </h2>
     {hora && (
       <div className="flex pb-2 items-center ">
         <img src={icon2} alt="hora" className="w-[17px] h-[17px]" />
@@ -30,8 +32,10 @@ const CardUbicacion = ({
     {parrafo && (
       <p className="font-montserrat text-slate-gray text-sm mb-4">{parrafo}</p>
     )}
-    {btn1 && <Boton label={btn1} img={gps} />}
-    {btn2 && <Boton label={btn2} img={gps} />}
+    <div data-aos="flip-left">
+      {btn1 && <Boton label={btn1} img={gps} />}
+      {btn2 && <Boton label={btn2} img={gps} />}
+    </div>
   </div>
 );
 
