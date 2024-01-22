@@ -26,22 +26,21 @@ export const ubicaciones = [
     img: iglesiaFoto,
     icon: iglesia,
     titulo1: "CEREMONIA RELIGIOSA",
-    titulo2: "Iglesia Ejemplo",
+    titulo2: "Catedral Toluca de Lerdo",
     icon2: reloj,
-    hora: "18:00",
-    parrafo:
-      "Calle ejemplo #33, Colonia Ejemplo, Ciudad Ejemplo, Estado Ejemplo, CP:00000",
+    hora: "13:00",
+    parrafo: "Av. Independencia 303, Centro, 50000 Toluca de Lerdo, Méx.",
     btn1: "VER EN GPS",
   },
   {
     img: salon,
     icon: recepcion,
     titulo1: "RECEPCION",
-    titulo2: "Salón Ejemplo",
+    titulo2: "Salón Dalias Paris",
     icon2: reloj,
-    hora: "19:30",
+    hora: "15:00",
     parrafo:
-      "Calle ejemplo #33, Colonia Ejemplo, Ciudad Ejemplo, Estado Ejemplo, CP:00000",
+      "Calle Ignacio López Rayón Tejocote 320, 50010 Santiago Miltepec, Méx.",
     btn1: "VER EN GPS",
   },
 ];
@@ -50,22 +49,22 @@ export const confirmaciones = [
     icon: whatsapp,
     titulo1: "CONFIRMAR POR",
     titulo2: "Whatsapp",
-    btn1: "+5587230943",
-    btn2: "+5523876512",
+    btn1: "7221406931",
+    btn2: "7228444568",
   },
   {
     icon: llamada,
     titulo1: "CONFIRMAR POR",
     titulo2: "Llamada",
-    btn1: "+5587230943",
-    btn2: "+5523876512",
+    btn1: "7228444568",
+    btn2: "7228444568",
   },
-  {
+  /*{
     icon: email,
     titulo1: "CONFIRMAR POR",
     titulo2: "Correo Electrónico",
     btn1: "Enviar",
-  },
+  },*/
 ];
 
 export const datosInvitado = [

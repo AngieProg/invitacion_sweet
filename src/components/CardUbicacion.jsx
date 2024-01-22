@@ -1,4 +1,6 @@
 //import "aos/dist/aos.css";
+import { gps } from "../assets/icons";
+import Boton from "./Boton";
 
 const CardUbicacion = ({
   icon,
@@ -10,7 +12,7 @@ const CardUbicacion = ({
   btn1,
   btn2,
 }) => (
-  <div className="flex flex-col  -bottom-40 bg-white-400 justify-center items-center px-8 py-8   w-[300px] shadow-3xl">
+  <div className="flex flex-col bg-white justify-center items-center px-8 py-8 w-[350px] shadow-3xl">
     <img
       src={icon}
       alt={titulo1}
@@ -20,7 +22,7 @@ const CardUbicacion = ({
     {titulo1 && <h3 className="font-sofia text-base py-2">{titulo1}</h3>}
     <h2 className="font-mea text-2xl py-3">{titulo2}</h2>
     {hora && (
-      <div className="flex p-2 items-center ">
+      <div className="flex pb-2 items-center ">
         <img src={icon2} alt="hora" className="w-[17px] h-[17px]" />
         <p className="font-montserrat text-sm ml-2">{hora} HRS</p>
       </div>
@@ -28,12 +30,8 @@ const CardUbicacion = ({
     {parrafo && (
       <p className="font-montserrat text-slate-gray text-sm mb-4">{parrafo}</p>
     )}
-    {btn1 && (
-      <button data-aos="zoom-in" className="bg-dark-pink p-2 w-[150px] mb-2">
-        {btn1}
-      </button>
-    )}
-    {btn2 && <button className="bg-dark-pink p-2 w-[150px]">{btn2}</button>}
+    {btn1 && <Boton label={btn1} img={gps} />}
+    {btn2 && <Boton label={btn2} img={gps} />}
   </div>
 );
 

@@ -1,5 +1,3 @@
-//import "aos/dist/aos.css";
-
 const CardFormato = ({ titulo1, titulo2 }) => {
   return (
     <>

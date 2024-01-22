@@ -4,33 +4,33 @@ import CardUbicacion from "../components/CardUbicacion";
 import Separador from "../components/separador";
 
 const Ubicacion = () => (
-  <section className="flex justify-center">
-    <div className="flex flex-col justify-center items-center w-[90%]  bg-white-400  text-center">
+  <section className="flex justify-center mt-10">
+    <div className="flex flex-col justify-center items-center bg-white-400  text-center">
       <CardFormato
         titulo1="¿DÓNDE Y CUÁNDO?"
         titulo2="Ubicaciones e Itinerario"
       />
       <Separador />
-      <div className="flex flex-wrap gap-10 justify-center">
+
+      <div className="flex flex-col justify-center">
         {ubicaciones.map((ubicacion, index) => (
-          <div
-            key={index}
-            className="flex flex-col relative items-center justify-center mb-10 "
-          >
+          <div key={index} className="mb-[200px] relative flex justify-center">
             <img
               src={ubicacion.img}
               alt={ubicacion.titulo2}
-              className="w-[350px] h-[400px] mb-5"
+              className="w-full h-[400px]"
             />
-            <CardUbicacion
-              icon={ubicacion.icon}
-              titulo1={ubicacion.titulo1}
-              titulo2={ubicacion.titulo2}
-              icon2={ubicacion.icon2}
-              hora={ubicacion.hora}
-              parrafo={ubicacion.parrafo}
-              btn1={ubicacion.btn1}
-            />
+            <div className="absolute -bottom-[150px] border-dark-pink border-4">
+              <CardUbicacion
+                icon={ubicacion.icon}
+                titulo1={ubicacion.titulo1}
+                titulo2={ubicacion.titulo2}
+                icon2={ubicacion.icon2}
+                hora={ubicacion.hora}
+                parrafo={ubicacion.parrafo}
+                btn1={ubicacion.btn1}
+              />
+            </div>
           </div>
         ))}
       </div>

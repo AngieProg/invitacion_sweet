@@ -1,7 +1,8 @@
 import { slideData } from "./../constants/index";
-import { flechaIzq, flechaDer, separador } from "../assets/icons";
+import { flechaIzq, flechaDer } from "../assets/icons";
 import { useState } from "react";
-import Titulo from "../components/Titulo";
+import CardFormato from "../components/CardFormato";
+import Separador from "../components/separador";
 
 const Galeria = () => {
   const [slide, setSlide] = useState(0);
@@ -15,8 +16,9 @@ const Galeria = () => {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <Titulo titulo1="Galería de Fotos" />
-      <div className="flex justify-center my-10">
+      <CardFormato titulo1="MIS RECUERDOS" titulo2="Galería de Fotos" />
+      <Separador />
+      <div className="flex justify-center mb-5">
         <div className="flex justify-center w-[400px] h-[400px] relative items-center">
           <img
             src={flechaIzq}
@@ -61,13 +63,7 @@ const Galeria = () => {
           </span>
         </div>
       </div>
-      <div>
-        <img
-          src={separador}
-          alt="separador"
-          className="w-[300px] h-[20px] mb-5"
-        />
-      </div>
+      <Separador />
     </div>
   );
 };

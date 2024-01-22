@@ -12,15 +12,15 @@ import {
 } from "./sections";
 
 const App = () => (
-  <main className="relative">
+  <main>
     <section className="bg-dark-pink xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
     <section>
       <Message />
     </section>
-    <section className="padding">
-      <Invitado />
+    <section>
+      <Invitado className="padding" />
     </section>
     <section>
       <Ubicaciones />
@@ -28,7 +28,7 @@ const App = () => (
     <section className="padding">
       <Contador />
     </section>
-    <section>
+    <section className="padding-x">
       <Familia />
     </section>
     {/* <section className="bg-soft-pink padding-x py-10">

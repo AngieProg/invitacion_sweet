@@ -1,3 +1,6 @@
+import Boton from "./Boton";
+import { confirmacion } from "../assets/icons";
+
 const CardInfo = ({
   icon,
   titulo1,
@@ -26,10 +29,8 @@ const CardInfo = ({
     {parrafo && (
       <p className="font-montserrat text-slate-gray text-sm mb-4">{parrafo}</p>
     )}
-    {btn1 && (
-      <button className="bg-dark-pink p-2 w-[150px] mb-2">{btn1}</button>
-    )}
-    {btn2 && <button className="bg-dark-pink p-2 w-[150px]">{btn2}</button>}
+    {btn1 && <Boton label={btn1} img={confirmacion} />}
+    {btn2 && <Boton label={btn2} img={confirmacion} />}
   </div>
 );
 

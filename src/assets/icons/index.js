@@ -17,11 +17,13 @@ import reloj from "./reloj.png";
 import circuloRosa from "./circulo_rosa.png";
 import musicPausa from "./musica_pausa.png";
 import musicPlay from "./music_play.png";
+import confirmacion from "./confirmar.png";
 
 export {
   banner,
   corazon,
   corazones,
+  confirmacion,
   email,
   flechaDer,
   flechaIzq,

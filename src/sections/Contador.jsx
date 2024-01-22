@@ -74,13 +74,13 @@ const Contador = () => {
 
       {/* Circulos con tiempo y medidas de tiempo */}
       <div className="flex flex-wrap justify-between mt-5 items-center w-[450px] mx-5 mb-5 ">
-        <Reloj tiempo={time.days} medida="Dìas" dataAOS="flip-left" />
+        <Reloj tiempo={time.days} medida="Dìas" />
 
-        <Reloj tiempo={time.hours} medida="Horas" dataAOS="flip-right" />
+        <Reloj tiempo={time.hours} medida="Horas" />
 
-        <Reloj tiempo={time.minutes} medida="Minutos" dataAOS="flip-left" />
+        <Reloj tiempo={time.minutes} medida="Minutos" />
 
-        <Reloj tiempo={time.seconds} medida="Segundos" dataAOS="flip-right" />
+        <Reloj tiempo={time.seconds} medida="Segundos" />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ const Titulo = ({ titulo1 }) => (
       <img
         src={separador}
         alt="Separador"
-        className="w-[300px] h-[20px] mb-5"
+        className="w-[250px] h-[20px] mb-5"
       />
     </div>
   </>
