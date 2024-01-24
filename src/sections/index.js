@@ -8,6 +8,7 @@ import Invitado from "./Invitado";
 import Message from "./Message";
 import MiHistoria from "./MiHistoria";
 import Ubicaciones from "./Ubicaciones";
+import Programa from "./Programa";
 
 export {
   Hero,
@@ -16,8 +17,9 @@ export {
   Contador,
   Familia,
   Galeria,
+  MiHistoria,
   Invitado,
   Message,
-  MiHistoria,
+  Programa,
   Ubicaciones,
 };

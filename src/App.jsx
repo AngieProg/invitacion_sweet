@@ -5,8 +5,9 @@ import {
   Galeria,
   Invitado,
   Message,
-  //MiHistoria,
+  MiHistoria,
   Ubicaciones,
+  Programa,
   //Agradecimiento,
   Hero,
   Confirmacion,
@@ -38,11 +39,14 @@ const App = () => {
       <section className="padding-x">
         <Familia />
       </section>
-      {/* <section className="bg-soft-pink padding-x py-10">
-      <MiHistoria />
-    </section> */}
+      <section className="padding">
+        <MiHistoria />
+      </section>
       <section className="padding">
         <Galeria />
+      </section>
+      <section className="padding">
+        <Programa />
       </section>
       <section className="padding">
         <Confirmacion />

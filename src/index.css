@@ -57,3 +57,11 @@
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
 }
+
+.pink_gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(216, 158, 159, 1) 0%,
+    rgba(237, 195, 193, 1) 36%
+  );
+}

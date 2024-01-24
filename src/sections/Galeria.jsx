@@ -16,8 +16,8 @@ const Galeria = () => {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <CardFormato titulo1="MIS RECUERDOS" titulo2="Galería de Fotos" />
-      <Separador />
+      <CardFormato titulo1="SESIÓN DE FOTOS" titulo2="Galería" />
+      <Separador width="[130px]" />
       <div className="flex justify-center mb-5">
         <div className="flex justify-center w-[400px] h-[400px] relative items-center">
           <img
@@ -63,7 +63,7 @@ const Galeria = () => {
           </span>
         </div>
       </div>
-      <Separador />
+      <Separador width="[130px]" />
     </div>
   );
 };
