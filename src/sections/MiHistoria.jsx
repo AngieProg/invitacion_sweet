@@ -10,22 +10,20 @@ const MiHistoria = () => (
       <img src={esqDerEspacio} className="absolute bottom-0 right-0 -z-50" />
       <CardFormato titulo1="RECUERDOS" titulo2="Mi Historia" />
       <Separador />
-      <separador />
-      {slideData.map((item, idx) => {
-        return (
-          <div
-            key={idx}
-            className="flex flex-col justify-center items-center mt-5"
-          >
-            <img
-              src={item.img}
-              alt={item.alt}
-              className="w-[400px] h-[400px] mb-10"
-              data-aos="zoom-in"
-            />
-          </div>
-        );
-      })}
+      <div className="xl:flex xl:flex-row xl:gap-8 xl:px-8 xl:flex-wrap justify-center items-center">
+        {slideData.map((item, idx) => {
+          return (
+            <div key={idx} className="flex justify-center items-center mt-5">
+              <img
+                src={item.img}
+                alt={item.alt}
+                className="w-[400px] h-[400px] mb-10 xl:w-[600px] xl:h-[600px]"
+                //data-aos="zoom-in"
+              />
+            </div>
+          );
+        })}
+      </div>
     </div>
   </section>
 );

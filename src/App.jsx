@@ -21,12 +21,11 @@ const App = () => {
   }, []);
   return (
     <main>
-      <section className="pink_gradient flex justify-center xl:padding-l wide:padding-r padding-b pt-5">
-        <Hero />
-      </section>
-      <section>
+      <Hero />
+
+      {/* <section>
         <Message />
-      </section>
+      </section> */}
       <section>
         <Invitado className="padding" />
       </section>

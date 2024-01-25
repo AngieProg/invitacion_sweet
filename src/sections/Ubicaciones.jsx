@@ -12,7 +12,7 @@ const Ubicacion = () => (
       />
       <Separador />
 
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col lg:flex-row lg:gap-8 lg:px-3 justify-center">
         {ubicaciones.map((ubicacion, index) => (
           <div key={index} className="mb-[200px] relative flex justify-center">
             <img
