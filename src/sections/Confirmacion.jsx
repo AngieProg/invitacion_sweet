@@ -10,7 +10,7 @@ const Confirmacion = () => (
       {/* <img src={separadorEspacio} alt="separador" /> */}
       <CardFormato titulo1="RSVP" titulo2="Confirma tu Asistencia" />
       <Separador />
-      <div className="flex flex-wrap gap-10 justify-center">
+      <div className="flex flex-wrap gap-5 justify-center md:px-10 md:gap-9">
         {confirmaciones.map((confirmacion, index) => (
           <div key={index}>
             <CardInfo

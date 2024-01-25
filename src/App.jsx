@@ -14,7 +14,6 @@ import {
 } from "./sections";
 import AOS from "aos";
 import "aos/dist/aos.css";
-//import Sobre from "./sections/Sobre";
 
 const App = () => {
   useEffect(() => {
@@ -22,8 +21,7 @@ const App = () => {
   }, []);
   return (
     <main>
-      {/* <Sobre /> */}
-      <section className="pink_gradient xl:padding-1 wide:padding-r padding-b">
+      <section className="pink_gradient flex justify-center xl:padding-l wide:padding-r padding-b pt-5">
         <Hero />
       </section>
       <section>
@@ -44,7 +42,7 @@ const App = () => {
       <section className="padding">
         <MiHistoria />
       </section>
-      <section className="padding">
+      <section className="padding-x">
         <Galeria />
       </section>
       <section>

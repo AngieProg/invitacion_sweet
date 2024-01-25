@@ -23,7 +23,7 @@ const Programa = () => {
   );
 
   return (
-    <section className="flex flex-col justify-center items-center py-8">
+    <section className="flex flex-col justify-center items-center py-2">
       <Titulo titulo1="Programa" />
       <Separador width="[200px]" />
       {/* Menu */}
