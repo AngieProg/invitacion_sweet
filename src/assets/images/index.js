@@ -20,6 +20,7 @@ import padrinos from "./padrinos.jpg";
 import salon from "./salon.jpg";
 import separadorEspacio from "./separador_espacio.png";
 import photoBackground from "./photo_background.jpg";
+import sobreSello from "./sobre.jpg";
 
 export {
   esqDerDorada,
@@ -29,6 +30,7 @@ export {
   esquineroIzq,
   esquineroDer,
   photoBackground,
+  sobreSello,
   galeria1,
   galeria2,
   galeria3,

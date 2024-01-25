@@ -11,6 +11,8 @@ const CardUbicacion = ({
   parrafo,
   btn1,
   btn2,
+  url1,
+  url2,
 }) => (
   <div className="flex flex-col bg-white justify-center items-center px-8 py-8 w-[350px] shadow-3xl">
     <img
@@ -33,8 +35,8 @@ const CardUbicacion = ({
       <p className="font-montserrat text-slate-gray text-sm mb-4">{parrafo}</p>
     )}
     <div data-aos="flip-left">
-      {btn1 && <Boton label={btn1} img={gps} />}
-      {btn2 && <Boton label={btn2} img={gps} />}
+      {btn1 && <Boton label={btn1} img={gps} url1={url1} />}
+      {btn2 && <Boton label={btn2} img={gps} url2={url2} />}
     </div>
   </div>
 );

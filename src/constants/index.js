@@ -1,5 +1,5 @@
 import {
-  email,
+  //email,
   iglesia,
   llamada,
   recepcion,
@@ -31,6 +31,7 @@ export const ubicaciones = [
     hora: "13:00",
     parrafo: "Av. Independencia 303, Centro, 50000 Toluca de Lerdo, Méx.",
     btn1: "VER EN GPS",
+    url1: '"https://maps.app.goo.gl/r6GejTonLwqwEt1o6"',
   },
   {
     img: salon,
@@ -42,6 +43,7 @@ export const ubicaciones = [
     parrafo:
       "Calle Ignacio López Rayón Tejocote 320, 50010 Santiago Miltepec, Méx.",
     btn1: "VER EN GPS",
+    url1: '"https://maps.app.goo.gl/kdzPSM31eNd3YAXs6"',
   },
 ];
 export const confirmaciones = [
@@ -51,6 +53,8 @@ export const confirmaciones = [
     titulo2: "Whatsapp",
     btn1: "7221406931",
     btn2: "7228444568",
+    url1: '"https://wa.me/52111111"',
+    url2: '"https://wa.me/52222222"',
   },
   {
     icon: llamada,
@@ -58,6 +62,8 @@ export const confirmaciones = [
     titulo2: "Llamada",
     btn1: "7228444568",
     btn2: "7228444568",
+    url1: '"https://wa.me/523333333"',
+    url2: '"https://wa.me/524444444"',
   },
   /*{
     icon: email,

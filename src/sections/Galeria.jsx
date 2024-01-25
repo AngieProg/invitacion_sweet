@@ -2,7 +2,7 @@ import { slideData } from "./../constants/index";
 import { flechaIzq, flechaDer } from "../assets/icons";
 import { useState } from "react";
 import CardFormato from "../components/CardFormato";
-import Separador from "../components/separador";
+import Separador from "../components/Separador";
 
 const Galeria = () => {
   const [slide, setSlide] = useState(0);

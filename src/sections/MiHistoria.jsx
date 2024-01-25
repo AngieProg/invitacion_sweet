@@ -1,6 +1,6 @@
 import { esqIzqEspacio, esqDerEspacio } from "../assets/images";
 import CardFormato from "../components/CardFormato";
-import Separador from "../components/separador";
+import Separador from "../components/Separador";
 import { slideData } from "../constants";
 
 const MiHistoria = () => (

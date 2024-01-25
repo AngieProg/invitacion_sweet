@@ -10,6 +10,8 @@ const CardInfo = ({
   parrafo,
   btn1,
   btn2,
+  url1,
+  url2,
 }) => (
   <div className="flex flex-col justify-center items-center px-8 py-8 mb-5 w-[300px] shadow-3xl">
     <img
@@ -30,10 +32,10 @@ const CardInfo = ({
       <p className="font-montserrat text-slate-gray text-sm mb-4">{parrafo}</p>
     )}
     <div data-aos="flip-up">
-      {btn1 && <Boton label={btn1} img={confirmacion} />}
+      {btn1 && <Boton label={btn1} img={confirmacion} url1={url1} />}
     </div>
     <div data-aos="flip-down">
-      {btn2 && <Boton label={btn2} img={confirmacion} />}
+      {btn2 && <Boton label={btn2} img={confirmacion} url2={url2} />}
     </div>
   </div>
 );

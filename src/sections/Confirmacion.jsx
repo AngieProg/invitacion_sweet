@@ -1,7 +1,7 @@
 import { confirmaciones } from "../constants/index";
 import CardFormato from "../components/CardFormato";
 import CardInfo from "../components/CardInfo";
-import Separador from "../components/separador";
+import Separador from "../components/Separador";
 // import { separadorEspacio } from "../assets/images";
 
 const Confirmacion = () => (
@@ -19,6 +19,8 @@ const Confirmacion = () => (
               titulo2={confirmacion.titulo2}
               btn1={confirmacion.btn1}
               btn2={confirmacion.btn2}
+              url1={confirmacion.url1}
+              url2={confirmacion.url2}
             />
           </div>
         ))}

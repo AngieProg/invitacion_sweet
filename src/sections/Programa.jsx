@@ -1,6 +1,6 @@
 import { recepcion, iglesia, llamada } from "../assets/icons";
 import Titulo from "../components/Titulo";
-import Separador from "../components/separador";
+import Separador from "../components/Separador";
 
 const Programa = () => {
   const Imagen = ({ src, alt }) => (
@@ -23,7 +23,7 @@ const Programa = () => {
   );
 
   return (
-    <section className="flex flex-col justify-center items-center">
+    <section className="flex flex-col justify-center items-center py-8">
       <Titulo titulo1="Programa" />
       <Separador width="[200px]" />
       {/* Menu */}

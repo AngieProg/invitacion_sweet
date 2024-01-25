@@ -1,13 +1,14 @@
 import { esqDerDorada, esqIzqDorada, portada } from "../assets/images";
 import { separadorDorado } from "../assets/icons";
-import Song from "../components/Song";
+//import Song from "../components/Song";
+import Sobre from "./Sobre";
 
 const Hero = () => {
   return (
     <div className="relative flex flex-col items-center justify-center">
       {/* Boton play/pausa de música */}
       <div className="fixed items-end cursor-pointer right-[40px] bottom-[140px]">
-        <Song />
+        <Sobre />
       </div>
 
       {/* Separador esquina izquierda */}

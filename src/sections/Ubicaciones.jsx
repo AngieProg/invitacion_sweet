@@ -1,11 +1,11 @@
 import { ubicaciones } from "../constants/index";
 import CardFormato from "../components/CardFormato";
 import CardUbicacion from "../components/CardUbicacion";
-import Separador from "../components/separador";
+import Separador from "../components/Separador";
 
 const Ubicacion = () => (
   <section className="flex justify-center mt-10">
-    <div className="flex flex-col justify-center items-center bg-white-400  text-center">
+    <div className="flex flex-col justify-center items-center bg-white-400 text-center">
       <CardFormato
         titulo1="¿DÓNDE Y CUÁNDO?"
         titulo2="Ubicaciones e Itinerario"
@@ -18,7 +18,7 @@ const Ubicacion = () => (
             <img
               src={ubicacion.img}
               alt={ubicacion.titulo2}
-              className="w-full h-[400px]"
+              className="w-[100%] h-[400px]"
             />
             <div className="absolute -bottom-[150px] border-dark-pink border-4">
               <CardUbicacion
@@ -29,6 +29,7 @@ const Ubicacion = () => (
                 hora={ubicacion.hora}
                 parrafo={ubicacion.parrafo}
                 btn1={ubicacion.btn1}
+                url1={ubicacion.url1}
               />
             </div>
           </div>

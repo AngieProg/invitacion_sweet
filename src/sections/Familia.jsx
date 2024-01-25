@@ -1,5 +1,5 @@
 import { padres, padrinos } from "../assets/images";
-import Separador from "../components/separador";
+import Separador from "../components/Separador";
 import CardFormato from "../components/CardFormato";
 
 const Familia = () => (
