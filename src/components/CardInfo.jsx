@@ -13,7 +13,7 @@ const CardInfo = ({
   url1,
   url2,
 }) => (
-  <div className="flex flex-col justify-center items-center px-8 py-8 mb-5 w-[300px] shadow-3xl">
+  <div className="flex flex-col border-dark-pink border-4 justify-center items-center px-8 py-8 mb-5 w-[300px] shadow-3xl">
     <img
       src={icon}
       alt={titulo1}
