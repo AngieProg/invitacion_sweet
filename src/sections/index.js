@@ -9,6 +9,7 @@ import Message from "./Message";
 import MiHistoria from "./MiHistoria";
 import Ubicaciones from "./Ubicaciones";
 import Programa from "./Programa";
+import Parallax from "./Parallax";
 
 export {
   Hero,
@@ -22,4 +23,5 @@ export {
   Message,
   Programa,
   Ubicaciones,
+  Parallax,
 };

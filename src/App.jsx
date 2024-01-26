@@ -11,6 +11,7 @@ import {
   //Agradecimiento,
   Hero,
   Confirmacion,
+  Parallax,
 } from "./sections";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,8 +30,11 @@ const App = () => {
       <section>
         <Ubicaciones />
       </section>
-      <section className="padding">
+      <section className="flex justify-center py-8 px-8">
         <Contador />
+      </section>
+      <section>
+        <Parallax />
       </section>
       <section>
         <Familia />

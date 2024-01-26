@@ -162,10 +162,10 @@ export const programa = [
 
 export const familia = [
   {
-    titulo1: "CON LA BENDICIOON DE ",
+    titulo1: "CON LA BENDICIÓN DE ",
     titulo2: "Mis Padres",
-    nombre1: "María Guadalupe Martínez Valdez",
-    nombre2: "Rigoberto Baltazar de Santiago",
+    nombre1: "Maria del Carmen Martínez Valdez ",
+    nombre2: "Horacio Pablo Flores",
     img: padres,
   },
   {

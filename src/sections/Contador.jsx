@@ -1,4 +1,3 @@
-import Titulo from "../components/Titulo";
 import { globos, imgContador } from "./../assets/images";
 import Reloj from "./../components/Reloj";
 import { useState, useEffect } from "react";
@@ -51,36 +50,43 @@ const Contador = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center border-dashed border-primary border-4">
+    <div className="flex flex-col items-center w-[350px] border-dashed md:w-[700px] border-primary border-4">
       {/* Titulo */}
       <div data-aos="fade-right">
         {showEndScreen.show ? (
-          <h3 className="font-mea text-4xl px-14 py-4">
+          <h3 className="font-mea text-4xl px-14 py-4 md:text-6xl">
             {showEndScreen.message}
           </h3>
         ) : (
-          <Titulo titulo1="¡Solo Faltan!" />
+          <div
+            className="flex flex-col items-center pt-6"
+            data-aos="fade-right"
+          >
+            <h1 className="font-mea text-4xl mb-1 text-dark-brown md:text-6xl">
+              ¡Solo Faltan!
+            </h1>
+          </div>
         )}
       </div>
 
       {/* Imagenes centrales */}
-      <div className="flex flex-row-reverse w-[390px] h-[320px] mt-3  mb-5 bg-white">
+      <div className="flex flex-row-reverse w-[390px] h-[320px] md:w-[900px] md:h-[500px] mt-3 mb-5 bg-white justify-center overflow-visible">
         <img
           src={imgContador}
           alt="quinceañera"
-          className="w-[200px] h-[320px] relative mr-5"
+          className="w-[200px] h-[320px] md:w-[400px] md:h-[500px]"
           //data-aos="zoom-in"
         />
         <img
           src={globos}
           alt="globos"
-          className="w-[200px] h-[320px] absolute left-[15px] z-10"
+          className="w-[200px] h-[320px] md:w-[400px] md:h-[500px]"
           //data-aos="fade-up"
         />
       </div>
 
       {/* Circulos con tiempo y medidas de tiempo */}
-      <div className="flex flex-wrap justify-between items-center w-[300px] mb-3">
+      <div className="flex flex-wrap justify-between items-center w-[300px] mb-3 md:w-[500px]">
         <Reloj tiempo={time.days} medida="Dìas" />
 
         <Reloj tiempo={time.hours} medida="Horas" />

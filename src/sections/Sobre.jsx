@@ -28,6 +28,29 @@ const Sobre = () => {
 
   const mostrarAlerta = () => {
     Swal.fire({
+      title: "¡Bienvenido!",
+      text: "¿Desesa ingresar con música?",
+      imageUrl: sobreSello,
+      imageWidth: 400,
+      imageHeight: 300,
+      imageAlt: "Custom image",
+      background: "#000000",
+      confirmButtonColor: "#CE9C9C",
+      denyButtonColor: "#CE9C9C",
+      showDenyButton: true,
+      denyButtonText: "No",
+      confirmButtonText: "Si",
+    }).then((response) => {
+      if (response.isConfirmed) {
+        setIsPlaying(true);
+        handlePlay();
+      } else {
+        setIsPlaying(false);
+        handlePause();
+      }
+    });
+    {
+      /*Swal.fire({
       //title: "¡Bienvenido! ¿Desesa ingresar con música?",
       text: "¡Bienvenido!",
       background: "#000000",
@@ -49,7 +72,8 @@ const Sobre = () => {
         setIsPlaying(false);
         handlePause();
       }
-    });
+    });*/
+    }
   };
 
   return (
