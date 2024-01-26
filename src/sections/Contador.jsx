@@ -51,7 +51,7 @@ const Contador = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center border-dashed border-primary border-4">
+    <div className="flex flex-col items-center border-dashed border-primary border-4">
       {/* Titulo */}
       <div data-aos="fade-right">
         {showEndScreen.show ? (
@@ -64,23 +64,23 @@ const Contador = () => {
       </div>
 
       {/* Imagenes centrales */}
-      <div className="flex bg-white justify-center w-[80vh]">
-        <img
-          src={globos}
-          alt="globos"
-          className="w-[250px] h-[360px]"
-          data-aos="fade-up"
-        />
+      <div className="flex flex-row-reverse w-[390px] h-[320px] mt-3  mb-5 bg-white">
         <img
           src={imgContador}
           alt="quinceañera"
-          className="w-[250px] h-[360px] relative"
-          data-aos="zoom-in"
+          className="w-[200px] h-[320px] relative mr-5"
+          //data-aos="zoom-in"
+        />
+        <img
+          src={globos}
+          alt="globos"
+          className="w-[200px] h-[320px] absolute left-[15px] z-10"
+          //data-aos="fade-up"
         />
       </div>
 
       {/* Circulos con tiempo y medidas de tiempo */}
-      <div className="flex flex-wrap justify-between mt-5 items-center w-[450px] mx-5 mb-5 ">
+      <div className="flex flex-wrap justify-between items-center w-[300px] mb-3">
         <Reloj tiempo={time.days} medida="Dìas" />
 
         <Reloj tiempo={time.hours} medida="Horas" />

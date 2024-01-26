@@ -1,15 +1,15 @@
 import { esqDerDorada, esqIzqDorada, portada } from "../assets/images";
 import { separadorDorado } from "../assets/icons";
 //import Song from "../components/Song";
-import Sobre from "./Sobre";
+//import Sobre from "./Sobre";
 
 const Hero = () => {
   return (
-    <section className="pink_gradient relative flex flex-col h-[100vh] items-center justify-center">
+    <section className="pink_gradient relative flex flex-col h-[100%] items-center">
       {/* Boton play/pausa de música */}
-      <div className="fixed items-end cursor-pointer right-[40px] bottom-[140px]">
+      {/* <div className="fixed items-end cursor-pointer right-[40px] bottom-[140px]">
         <Sobre />
-      </div>
+      </div> */}
 
       {/* Separador esquina izquierda */}
       <img
@@ -34,7 +34,7 @@ const Hero = () => {
       <img
         src={portada}
         alt="foto portada"
-        className="w-[200px] h-[340px]"
+        className="w-[240px] h-[340px]"
         //data-aos="zoom-in"
       />
       {/* Banner */}
@@ -48,7 +48,7 @@ const Hero = () => {
       </div>
 
       {/* Tabla */}
-      <div className="flex flex-col justify-center items-center mb-10">
+      <div className="flex flex-col justify-center items-center">
         {/* Adorno superior de la tabla */}
         <img src={separadorDorado} alt="separador" className="w-[90%]" />
 

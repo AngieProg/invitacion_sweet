@@ -28,12 +28,12 @@ const Sobre = () => {
 
   const mostrarAlerta = () => {
     Swal.fire({
-      title: "MIS XV AÑOS VALENTINA",
-      text: "¡Bienvenido! ¿Desesa ingresar con música?",
+      //title: "¡Bienvenido! ¿Desesa ingresar con música?",
+      text: "¡Bienvenido!",
       background: "#000000",
       imageUrl: sobreSello,
-      imageWidth: 400,
-      imageHeight: 300,
+      imageWidth: 120, //width: "100%",
+      imageHeight: 80,
       imageAlt: "Custom image",
       showDenyButton: true,
       denyButtonText: "No",

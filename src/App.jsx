@@ -22,13 +22,10 @@ const App = () => {
   return (
     <main>
       <Hero />
-
-      {/* <section>
-        <Message />
-      </section> */}
       <section>
-        <Invitado className="padding" />
+        <Message />
       </section>
+      <Invitado />
       <section>
         <Ubicaciones />
       </section>

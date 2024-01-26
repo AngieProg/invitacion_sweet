@@ -8,7 +8,7 @@ const Invitado = () => (
     <div className="flex flex-col justify-center items-center w-[400px] h-[400px] border-4 border-separate border-dark-pink  text-center relative">
       <img src={esqIzqEspacio} className="absolute top-0 left-0" />
       <CardFormato titulo1="APRECIABLE" titulo2="Nombre del Invitado" />
-      <p className="font-montserrat text-base w-[300px] text-dark-brown">
+      <p className="font-montserrat mt-2 text-base w-[300px] text-dark-brown">
         CON INMENSA ALEGRÍA TE INVITO A CELEBRAR MIS XV AÑOS
       </p>
       <div className="flex flex-col flex-wrap items-center mt-6">
