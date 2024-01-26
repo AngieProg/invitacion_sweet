@@ -32,17 +32,17 @@ const App = () => {
       <section className="padding">
         <Contador />
       </section>
-      <section className="padding-x">
+      <section>
         <Familia />
       </section>
       <section className="padding">
         <MiHistoria />
       </section>
-      <section className="padding-x">
-        <Galeria />
-      </section>
       <section>
         <Programa />
+      </section>
+      <section className="padding-x sm:pt-24 pt-12">
+        <Galeria />
       </section>
       <section className="padding">
         <Confirmacion />

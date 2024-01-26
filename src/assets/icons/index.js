@@ -18,6 +18,10 @@ import circuloRosa from "./circulo_rosa.png";
 import musicPausa from "./musica_pausa.png";
 import musicPlay from "./music_play.png";
 import confirmacion from "./confirmar.png";
+import comidaPrograma from "./comidaPrograma.png";
+import iglesiaPrograma from "./iglesiaPrograma.png";
+import valsPrograma from "./valsPrograma.png";
+import recepcionPrograma from "./recepcionPrograma.png";
 
 export {
   banner,
@@ -28,6 +32,10 @@ export {
   flechaDer,
   flechaIzq,
   circuloRosa,
+  comidaPrograma,
+  iglesiaPrograma,
+  valsPrograma,
+  recepcionPrograma,
   persona,
   reloj,
   gps,

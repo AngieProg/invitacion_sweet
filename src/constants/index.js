@@ -6,6 +6,10 @@ import {
   whatsapp,
   persona,
   reloj,
+  iglesiaPrograma,
+  recepcionPrograma,
+  comidaPrograma,
+  valsPrograma,
   //circuloRosa,
 } from "./../assets/icons";
 
@@ -19,6 +23,8 @@ import {
   hisotria1,
   iglesiaFoto,
   salon,
+  padres,
+  padrinos,
 } from "./../assets/images";
 
 export const ubicaciones = [
@@ -128,5 +134,45 @@ export const historia = [
     id: 3,
     img: historia3,
     alt: "Foto 3",
+  },
+];
+
+export const programa = [
+  {
+    icon: iglesiaPrograma,
+    hora: "13:00",
+    itinerario: "CEREMONIA RELIGIOSA",
+  },
+  {
+    icon: recepcionPrograma,
+    hora: "15:00",
+    itinerario: "RECEPCIÓN",
+  },
+  {
+    icon: comidaPrograma,
+    hora: "16:00",
+    itinerario: "COMIDA",
+  },
+  {
+    icon: valsPrograma,
+    hora: "18:00",
+    itinerario: "VALS",
+  },
+];
+
+export const familia = [
+  {
+    titulo1: "CON LA BENDICIOON DE ",
+    titulo2: "Mis Padres",
+    nombre1: "María Guadalupe Martínez Valdez",
+    nombre2: "Rigoberto Baltazar de Santiago",
+    img: padres,
+  },
+  {
+    titulo1: "PADRINOS DE VELACIÓN",
+    titulo2: "Mis Padrinos",
+    nombre1: "María Guadalupe Martínez Valdez",
+    nombre2: "Rigoberto Baltazar de Santiago",
+    img: padrinos,
   },
 ];

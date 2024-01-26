@@ -1,39 +1,37 @@
-import { padres, padrinos } from "../assets/images";
 import Separador from "../components/Separador";
-import CardFormato from "../components/CardFormato";
+import { familia } from "../constants";
 
-const Familia = () => (
-  <div className="flex flex-col md:flex-row md:gap-8 items-center justify-center border-double border-dark-pink border-4 pt-10">
-    {/* Padres */}
-    <div className="flex flex-col items-center py-8 w-[300px] mb-8 shadow-3xl border-dark-pink border-4">
-      <CardFormato titulo1="CON LA BENDICIÓN DE" titulo2="Mis Padres" />
-      <Separador />
-      <img
-        src={padres}
-        alt="Padres"
-        className="w-[250px] h-[180px]"
-        data-aos="zoom-in"
-      />
-      <p className="font-sofia text-2xl text-dark-brown px-8 text-center mt-2">
-        María del Carmen MartÍnez Valdez& Horacio Pablo Flore
-      </p>
+const Familia = () => {
+  return (
+    <div className="flex flex-col md:flex-row md:gap-8 items-center justify-center bg-black pt-10 pb-5">
+      {familia.map((familiar, index) => (
+        <div
+          key={index}
+          className="flex flex-col py-8 border-dark-pink border-4 items-center mb-5"
+        >
+          <h3 className="font-sofia text-xl mb-1 text-dark-brown">
+            {familiar.titulo1}
+          </h3>
+          <div data-aos="fade-right">
+            <h2 className="font-mea text-3.5xl text-center text-dark-brown">
+              {familiar.titulo2}
+            </h2>
+          </div>
+          <Separador width="[200px]" />
+          <img
+            src={familiar.img}
+            alt="Padres"
+            className="w-[250px] h-[180px]"
+            data-aos="zoom-in"
+          />
+          <p className="font-sofia uppercase text-xl text-dark-brown px-8 text-center mt-2">
+            {familiar.nombre1}
+            <br /> &<br /> {familiar.nombre2}
+          </p>
+        </div>
+      ))}
     </div>
-
-    {/* Padrinos */}
-    <div className="flex flex-col items-center py-8 w-[300px] border-dark-pink border-4 mb-8 shadow-3xl">
-      <CardFormato titulo1="PADRINOS DE VELACIÓN" titulo2="Mis Padrinos" />
-      <Separador />
-      <img
-        src={padrinos}
-        alt="Padres"
-        className="w-[250px] h-[180px]"
-        data-aos="zoom-in"
-      />
-      <p className="font-sofia text-2xl text-dark-brown px-8 text-center mt-2">
-        María Guadalupe Martínez Valdez & Rigoberto Baltazar de Santiago
-      </p>
-    </div>
-  </div>
-);
+  );
+};
 
 export default Familia;
