@@ -5,7 +5,7 @@ import { separadorDorado } from "../assets/icons";
 
 const Hero = () => {
   return (
-    <section className="pink_gradient relative flex flex-col h-[100%] items-center">
+    <section className="pink_gradient relative flex flex-col justify-center h-[100vh] items-center">
       {/* Boton play/pausa de música */}
       {/* <div className="fixed items-end cursor-pointer right-[40px] bottom-[140px]">
         <Sobre />

@@ -4,7 +4,7 @@ import InfoAdicional from "../components/InfoAdicional";
 import { esqIzqEspacio } from "../assets/images";
 
 const Invitado = () => (
-  <section className="mt-10 flex justify-center">
+  <section className="flex justify-center">
     <div className="flex flex-col justify-center items-center w-[400px] h-[400px] border-4 border-separate border-dark-pink  text-center relative">
       <img src={esqIzqEspacio} className="absolute top-0 left-0" />
       <CardFormato titulo1="APRECIABLE" titulo2="Nombre del Invitado" />

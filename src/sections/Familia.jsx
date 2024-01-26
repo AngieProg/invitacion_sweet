@@ -3,9 +3,9 @@ import Separador from "../components/Separador";
 import CardFormato from "../components/CardFormato";
 
 const Familia = () => (
-  <div className="flex flex-col md:flex-row md:gap-8 items-center justify-center border-double border-dark-pink border-4 py-10">
+  <div className="flex flex-col md:flex-row md:gap-8 items-center justify-center border-double border-dark-pink border-4 pt-10">
     {/* Padres */}
-    <div className="flex flex-col items-center py-8 w-[400px] mb-8 shadow-3xl border-dark-pink border-4">
+    <div className="flex flex-col items-center py-8 w-[300px] mb-8 shadow-3xl border-dark-pink border-4">
       <CardFormato titulo1="CON LA BENDICIÓN DE" titulo2="Mis Padres" />
       <Separador />
       <img
@@ -20,7 +20,7 @@ const Familia = () => (
     </div>
 
     {/* Padrinos */}
-    <div className="flex flex-col items-center py-8 w-[400px] border-dark-pink border-4 mb-8 shadow-3xl">
+    <div className="flex flex-col items-center py-8 w-[300px] border-dark-pink border-4 mb-8 shadow-3xl">
       <CardFormato titulo1="PADRINOS DE VELACIÓN" titulo2="Mis Padrinos" />
       <Separador />
       <img

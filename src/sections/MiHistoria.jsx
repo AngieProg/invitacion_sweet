@@ -6,8 +6,8 @@ import { slideData } from "../constants";
 const MiHistoria = () => (
   <section>
     <div className="flex flex-col items-center justify-center border-double border-dark-pink border-4 py-10 relative">
-      <img src={esqIzqEspacio} className="absolute top-0 left-0 -z-50" />
-      <img src={esqDerEspacio} className="absolute bottom-0 right-0 -z-50" />
+      <img src={esqIzqEspacio} className="absolute top-0 left-0 -z-0" />
+      <img src={esqDerEspacio} className="absolute bottom-0 right-0 -z-0" />
       <CardFormato titulo1="RECUERDOS" titulo2="Mi Historia" />
       <Separador />
       <div className="xl:flex xl:flex-row xl:gap-8 xl:px-8 xl:flex-wrap justify-center items-center">
@@ -17,7 +17,7 @@ const MiHistoria = () => (
               <img
                 src={item.img}
                 alt={item.alt}
-                className="w-[400px] h-[400px] mb-10 xl:w-[600px] xl:h-[600px]"
+                className="w-[300px] h-[300px] mb-10 xl:w-[600px] xl:h-[600px]"
                 //data-aos="zoom-in"
               />
             </div>
