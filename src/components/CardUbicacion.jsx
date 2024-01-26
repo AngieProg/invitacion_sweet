@@ -22,7 +22,7 @@ const CardUbicacion = ({
       data-aos="zoom-out-up"
     />
     {titulo1 && <h3 className="font-sofia text-base py-2">{titulo1}</h3>}
-    <h2 className="font-mea text-2xl py-3" data-aos="fade-right">
+    <h2 className="font-mea text-3xl py-3" data-aos="fade-right">
       {titulo2}
     </h2>
     {hora && (
