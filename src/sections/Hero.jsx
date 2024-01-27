@@ -40,7 +40,7 @@ const Hero = () => {
       {/* Banner */}
       <div>
         <div
-          className="flex items-center justify-evenly bg-banner bg-cover w-[350px] h-[50px] my-4 self-end md:w-[500px] md:h-[90px]"
+          className="flex items-center justify-evenly bg-banner bg-cover w-[350px] h-[50px] my-4 md:w-[500px] md:h-[90px]"
           data-aos="fade-left"
         >
           <h1 className="font-mea text-4xl pb-2 pt-3 text-dark-brown md:text-8xl">
