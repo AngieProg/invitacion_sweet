@@ -18,7 +18,7 @@ const MiHistoria = () => (
                 src={item.img}
                 alt={item.alt}
                 className="w-[300px] h-[300px] mb-10 xl:w-[600px] xl:h-[600px]"
-                //data-aos="zoom-in"
+                data-aos="zoom-in"
               />
             </div>
           );

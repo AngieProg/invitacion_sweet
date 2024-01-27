@@ -5,7 +5,10 @@ const Programa = () => {
   return (
     <section className="flex flex-col justify-center items-center bg-black py-4 md:py-11">
       <div className="flex flex-col items-center pt-6">
-        <h1 className="font-mea text-4xl mb-1 text-dark-brown md:text-8xl">
+        <h1
+          className="font-mea text-4xl mb-1 text-dark-brown md:text-8xl"
+          data-aos="fade-right"
+        >
           Programa
         </h1>
         <img
@@ -31,7 +34,7 @@ const Programa = () => {
             <div className="flex flex-col justify-center w-[120px] items-center">
               <div
                 className="h-[80px] flex flex-col justify-center items-center"
-                //data-aos="fade-left"
+                data-aos="fade-left"
               >
                 <p className="text-xl text-dark-pink text-center md:text-2xl font-montserrat mb-1">
                   {actividad.hora}

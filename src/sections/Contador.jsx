@@ -81,7 +81,7 @@ const Contador = () => {
           src={globos}
           alt="globos"
           className="w-[200px] h-[320px] md:w-[400px] md:h-[500px]"
-          //data-aos="fade-up"
+          data-aos="fade-up"
         />
       </div>
 

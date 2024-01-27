@@ -22,9 +22,12 @@ const Familia = () => {
             src={familiar.img}
             alt="Padres"
             className="w-[250px] h-[180px] xl:w-[400px] xl:h-[300px] mt-2 mb-4"
-            //data-aos="zoom-in"
+            data-aos="flip-left"
           />
-          <p className="font-sofia uppercase text-xl text-dark-brown px-8 text-center mt-2 xl:text-3.5xl">
+          <p
+            className="font-sofia uppercase text-xl text-dark-brown px-8 text-center mt-2 xl:text-3.5xl"
+            data-aos="flip-right"
+          >
             {familiar.nombre1}
             <br /> &<br /> {familiar.nombre2}
           </p>

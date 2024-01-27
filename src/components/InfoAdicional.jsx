@@ -1,7 +1,10 @@
 const InfoAdicional = ({ icon2, label, input }) => {
   return (
     <div>
-      <div className="flex justify-center items-center mb-2 pb-2 ">
+      <div
+        className="flex justify-center items-center mb-2 pb-2"
+        data-aos="flip-left"
+      >
         <img
           src={icon2}
           alt="persona"
