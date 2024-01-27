@@ -16,7 +16,7 @@ const Contador = () => {
     message: "¡Hoy es el gran día!",
   });
 
-  const targetDate = new Date("may 12, 2024 14:00:00");
+  const targetDate = new Date("april 27, 2024 13:00:00");
 
   useEffect(() => {
     const timerInterval = setInterval(() => {
