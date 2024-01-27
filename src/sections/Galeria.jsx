@@ -3,6 +3,7 @@ import { flechaIzq, flechaDer } from "../assets/icons";
 import { useState } from "react";
 import CardFormato from "../components/CardFormato";
 import Separador from "../components/Separador";
+import { separador } from "../assets/icons";
 
 const Galeria = () => {
   const [slide, setSlide] = useState(0);
@@ -17,9 +18,13 @@ const Galeria = () => {
   return (
     <div className="flex flex-col justify-center items-center">
       <CardFormato titulo1="SESIÓN DE FOTOS" titulo2="Galería" />
-      <Separador width="[150px]" />
-      <div className="flex justify-center mb-5">
-        <div className="flex justify-center w-[400px] h-[400px] relative items-center md:w-[600px] md:h-[600px]">
+      <img
+        src={separador}
+        alt="Separador"
+        className="w-[150px] md:w-[300px] md:mb-11"
+      />
+      <div className="flex justify-center">
+        <div className="flex justify-center w-[400px] h-[600px] relative items-center md:w-[600px] md:h-[600px]">
           <img
             src={flechaIzq}
             alt="flecha izquierda"
@@ -34,7 +39,7 @@ const Galeria = () => {
                 alt={item.alt}
                 className={
                   slide === idx
-                    ? "border-2 border-white rounded-lg object-cover"
+                    ? "border-2 border-dark-pink rounded-lg object-cover"
                     : "hidden"
                 }
               />
@@ -54,7 +59,7 @@ const Galeria = () => {
                   onClick={() => setSlide(idx)}
                   className={
                     slide === idx
-                      ? "bg-white w-[8px] h-[8px] rounded-full border-none outline-none mx-2 cursor-pointer"
+                      ? "bg-dark-pink w-[8px] h-[8px] rounded-full border-none outline-none mx-2 cursor-pointer"
                       : "w-[8px] h-[8px] rounded-full border-none outline-none mx-2 cursor-pointer bg-black"
                   }
                 ></button>

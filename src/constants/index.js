@@ -18,6 +18,8 @@ import {
   galeria2,
   galeria3,
   galeria4,
+  galeria5,
+  galeria6,
   historia2,
   historia3,
   hisotria1,
@@ -42,7 +44,7 @@ export const ubicaciones = [
   {
     img: salon,
     icon: recepcion,
-    titulo1: "RECEPCION",
+    titulo1: "RECEPCIÓN",
     titulo2: "Salón Dalias Paris",
     icon2: reloj,
     hora: "15:00",
@@ -116,6 +118,16 @@ export const slideData = [
   {
     id: 4,
     img: galeria4,
+    alt: "Foto 4",
+  },
+  {
+    id: 5,
+    img: galeria5,
+    alt: "Foto 4",
+  },
+  {
+    id: 6,
+    img: galeria6,
     alt: "Foto 4",
   },
 ];

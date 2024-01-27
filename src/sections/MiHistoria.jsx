@@ -1,7 +1,7 @@
 import { esqIzqEspacio, esqDerEspacio } from "../assets/images";
 import CardFormato from "../components/CardFormato";
 import Separador from "../components/Separador";
-import { slideData } from "../constants";
+import { historia } from "../constants";
 
 const MiHistoria = () => (
   <section>
@@ -11,7 +11,7 @@ const MiHistoria = () => (
       <CardFormato titulo1="RECUERDOS" titulo2="Mi Historia" />
       <Separador />
       <div className="xl:flex xl:flex-row xl:gap-8 xl:px-8 xl:flex-wrap justify-center items-center">
-        {slideData.map((item, idx) => {
+        {historia.map((item, idx) => {
           return (
             <div key={idx} className="flex justify-center items-center mt-5">
               <img
