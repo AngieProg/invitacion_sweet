@@ -75,7 +75,7 @@ const Contador = () => {
           src={imgContador}
           alt="quinceañera"
           className="w-[200px] h-[320px] md:w-[400px] md:h-[500px]"
-          //data-aos="zoom-in"
+          data-aos="zoom-in"
         />
         <img
           src={globos}

@@ -24,11 +24,11 @@ const Galeria = () => {
         className="w-[150px] md:w-[300px] md:mb-11"
       />
       <div className="flex justify-center">
-        <div className="flex justify-center w-[400px] h-[600px] relative items-center md:w-[600px] md:h-[600px]">
+        <div className="flex justify-center w-full h-[700px] relative items-center md:w-[600px] md:h-[750px]">
           <img
             src={flechaIzq}
             alt="flecha izquierda"
-            className="absolute w-[30px] h-[30px] left-[20px] cursor-pointer md:w-[50px] md:h-[50px] "
+            className="absolute w-[30px] h-[30px] left-[20px] cursor-pointer md:w-[35px] md:h-[35px] "
             onClick={prevSlide}
           />
           {slideData.map((item, idx) => {
@@ -39,7 +39,7 @@ const Galeria = () => {
                 alt={item.alt}
                 className={
                   slide === idx
-                    ? "border-2 border-dark-pink rounded-lg object-cover"
+                    ? "border-2 border-dark-pink rounded-lg object-cover w-full h-[600px] md:w-[600px] md:h-[750px]"
                     : "hidden"
                 }
               />
@@ -48,7 +48,7 @@ const Galeria = () => {
           <img
             src={flechaDer}
             alt="flecha derecha"
-            className="absolute w-[30px] h-[30px] right-[20px] cursor-pointer md:w-[50px] md:h-[50px]"
+            className="absolute w-[30px] h-[30px] right-[20px] cursor-pointer md:w-[35px] md:h-[35px]"
             onClick={nextSlide}
           />
           <span className="flex absolute bottom-[20px]">
@@ -68,7 +68,11 @@ const Galeria = () => {
           </span>
         </div>
       </div>
-      <Separador width="[130px]" />
+      <img
+        src={separador}
+        alt="Separador"
+        className="w-[150px] mt-2 md:mt-10 md:w-[300px] md:mb-11"
+      />
     </div>
   );
 };

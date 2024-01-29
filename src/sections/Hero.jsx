@@ -34,16 +34,16 @@ const Hero = () => {
       <img
         src={portada}
         alt="foto portada"
-        className="w-[240px] h-[340px]"
+        className="w-[280px] h-[400px] md:w-[330px] md:h-[450px]"
         data-aos="zoom-in"
       />
       {/* Banner */}
-      <div>
+      <div className="">
         <div
-          className="flex items-center justify-evenly bg-banner bg-cover w-[350px] h-[50px] my-4 md:w-[500px] md:h-[90px]"
+          className="flex items-center justify-evenly bg-banner bg-cover w-[300px] h-[50px] my-4 md:w-[350px] md:h-[60px] md:pl-[80px] md:justify-center"
           data-aos="fade-left"
         >
-          <h1 className="font-mea text-4xl pb-2 pt-3 text-dark-brown md:text-8xl">
+          <h1 className="font-mea text-4xl pb-2 pt-3 text-dark-brown md:text-[75px]">
             Valentina
           </h1>
         </div>
@@ -55,13 +55,13 @@ const Hero = () => {
         <img
           src={separadorDorado}
           alt="separador"
-          className="w-[90%] md:w-[750px]"
+          className="w-[90%] md:w-[650px] md:h-[30px]"
           data-aos="fade-up"
         />
 
         {/* Datos de la tabla */}
         <table
-          className="table-fixed text-sm text-center font-montserrat w-[85%]  border-collapse border-spacing-2 border border-soft-brown md:w-[700px] md:text-2xl"
+          className="table-fixed text-sm text-center font-montserrat w-[85%]  border-collapse border-spacing-2 border border-soft-brown md:w-[550px] md:text-xl"
           data-aos="flip-up"
         >
           <tbody>

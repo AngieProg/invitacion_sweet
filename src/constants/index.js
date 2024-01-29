@@ -68,7 +68,7 @@ export const confirmaciones = [
     icon: llamada,
     titulo1: "CONFIRMAR POR",
     titulo2: "Llamada",
-    btn1: "7228444568",
+    btn1: "7221406931",
     btn2: "7228444568",
     url1: '"https://wa.me/523333333"',
     url2: '"https://wa.me/524444444"',

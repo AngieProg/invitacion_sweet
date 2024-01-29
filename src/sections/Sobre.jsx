@@ -31,8 +31,8 @@ const Sobre = () => {
       title: "¡Bienvenido!",
       text: "¿Desesa ingresar con música?",
       imageUrl: sobreSello,
-      imageWidth: 400,
-      imageHeight: 300,
+      imageWidth: 350,
+      imageHeight: 280,
       imageAlt: "Custom image",
       background: "#000000",
       confirmButtonColor: "#CE9C9C",
@@ -49,31 +49,6 @@ const Sobre = () => {
         handlePause();
       }
     });
-    {
-      /*Swal.fire({
-      //title: "¡Bienvenido! ¿Desesa ingresar con música?",
-      text: "¡Bienvenido!",
-      background: "#000000",
-      imageUrl: sobreSello,
-      imageWidth: 120, //width: "100%",
-      imageHeight: 80,
-      imageAlt: "Custom image",
-      showDenyButton: true,
-      denyButtonText: "No",
-      confirmButtonText: "Si",
-      denyButtonColor: "#CE9C9C",
-      confirmButtonColor: "#CE9C9C",
-      //inputAutoFocus: false,
-    }).then((response) => {
-      if (response.isConfirmed) {
-        setIsPlaying(true);
-        handlePlay();
-      } else {
-        setIsPlaying(false);
-        handlePause();
-      }
-    });*/
-    }
   };
 
   return (
