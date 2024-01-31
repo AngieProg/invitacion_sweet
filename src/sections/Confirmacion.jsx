@@ -11,7 +11,7 @@ const Confirmacion = () => (
             Confirmación de asistencia
           </h2>
           <h3 className="font-sofia text-base text-center px-5 md:mb-2 text-dark-brown md:text-2xl">
-            Favor de confirmar tu asistencia antes del día 01 de Marzo del 2024
+            Favor de confirmar tu asistencia antes del día 18 de Marzo del 2024
           </h3>
         </div>
       </div>

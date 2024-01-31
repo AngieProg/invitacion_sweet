@@ -16,13 +16,21 @@ import {
 import {
   galeria1,
   galeria2,
-  galeria3,
+  //galeria3,
   galeria4,
-  galeria5,
+  //galeria5,
   galeria6,
   historia2,
   historia3,
   hisotria1,
+  historia4,
+  historia5,
+  historia6,
+  historia7,
+  historia8,
+  historia9,
+  historia10,
+  historia11,
   iglesiaFoto,
   salon,
   padres,
@@ -110,21 +118,21 @@ export const slideData = [
     img: galeria2,
     alt: "Foto 2",
   },
-  {
+  /*{
     id: 3,
     img: galeria3,
     alt: "Foto 3",
-  },
+  },*/
   {
     id: 4,
     img: galeria4,
     alt: "Foto 4",
   },
-  {
+  /*{
     id: 5,
     img: galeria5,
     alt: "Foto 4",
-  },
+  },*/
   {
     id: 6,
     img: galeria6,
@@ -146,6 +154,46 @@ export const historia = [
     id: 3,
     img: historia3,
     alt: "Foto 3",
+  },
+  {
+    id: 4,
+    img: historia4,
+    alt: "Foto 4",
+  },
+  {
+    id: 5,
+    img: historia5,
+    alt: "Foto 5",
+  },
+  {
+    id: 6,
+    img: historia6,
+    alt: "Foto 6",
+  },
+  {
+    id: 7,
+    img: historia7,
+    alt: "Foto 7",
+  },
+  {
+    id: 8,
+    img: historia8,
+    alt: "Foto 8",
+  },
+  {
+    id: 9,
+    img: historia9,
+    alt: "Foto 9",
+  },
+  {
+    id: 10,
+    img: historia10,
+    alt: "Foto 10",
+  },
+  {
+    id: 11,
+    img: historia11,
+    alt: "Foto 11",
   },
 ];
 

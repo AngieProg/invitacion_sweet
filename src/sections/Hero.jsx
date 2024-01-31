@@ -40,7 +40,7 @@ const Hero = () => {
       {/* Banner */}
       <div className="">
         <div
-          className="flex items-center justify-evenly bg-banner bg-cover w-[300px] h-[50px] my-4 md:w-[350px] md:h-[60px] md:pl-[80px] md:justify-center"
+          className="flex items-center justify-evenly bg-banner bg-cover pl-[50px] w-[300px] h-[50px] my-4 md:w-[350px] md:h-[60px] md:pl-[80px] md:justify-center"
           data-aos="fade-left"
         >
           <h1 className="font-mea text-4xl pb-2 pt-3 text-dark-brown md:text-[75px]">
@@ -50,8 +50,8 @@ const Hero = () => {
       </div>
 
       {/* Tabla */}
-      <div className="flex flex-col justify-center items-center">
-        {/* Adorno superior de la tabla */}
+      {/*<div className="flex flex-col justify-center items-center">
+        Adorno superior de la tabla
         <img
           src={separadorDorado}
           alt="separador"
@@ -59,7 +59,7 @@ const Hero = () => {
           data-aos="fade-up"
         />
 
-        {/* Datos de la tabla */}
+        Datos de la tabla
         <table
           className="table-fixed text-sm text-center font-montserrat w-[85%]  border-collapse border-spacing-2 border border-soft-brown md:w-[550px] md:text-xl"
           data-aos="flip-up"
@@ -87,7 +87,7 @@ const Hero = () => {
             </tr>
           </tbody>
         </table>
-      </div>
+      </div>*/}
     </section>
   );
 };

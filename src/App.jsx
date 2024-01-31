@@ -8,10 +8,9 @@ import {
   MiHistoria,
   Ubicaciones,
   Programa,
-  //Agradecimiento,
+  Agradecimiento,
   Hero,
   Confirmacion,
-  Parallax,
 } from "./sections";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -34,9 +33,6 @@ const App = () => {
         <Contador />
       </section>
       <section>
-        <Parallax />
-      </section>
-      <section>
         <Familia />
       </section>
       <section className="padding">
@@ -51,9 +47,12 @@ const App = () => {
       <section className="padding">
         <Confirmacion />
       </section>
-      {/* <section className="padding-x padding-t pb-8 bg-dark-pink">
-      <Agradecimiento />
-    </section> */}
+      <section className="padding-x">
+        <Agradecimiento />
+      </section>
+      <section className="padding">
+        <Confirmacion />
+      </section>
     </main>
   );
 };

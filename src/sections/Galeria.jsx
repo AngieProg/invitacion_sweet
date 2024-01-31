@@ -2,7 +2,6 @@ import { slideData } from "./../constants/index";
 import { flechaIzq, flechaDer } from "../assets/icons";
 import { useState } from "react";
 import CardFormato from "../components/CardFormato";
-import Separador from "../components/Separador";
 import { separador } from "../assets/icons";
 
 const Galeria = () => {
@@ -24,7 +23,7 @@ const Galeria = () => {
         className="w-[150px] md:w-[300px] md:mb-11"
       />
       <div className="flex justify-center">
-        <div className="flex justify-center w-full h-[700px] relative items-center md:w-[600px] md:h-[750px]">
+        <div className="flex justify-center w-[100%] h-[700px] relative items-center md:w-[600px] md:h-[750px]">
           <img
             src={flechaIzq}
             alt="flecha izquierda"
