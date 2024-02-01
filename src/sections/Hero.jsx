@@ -24,7 +24,7 @@ const Hero = () => {
         className="absolute bottom-0 right-0 w-[150px] h-[150px] md:w-[300px] md:h-[300px] md:right-[30px] xl:right-[200px] 2xl:right-[380px] "
       />
       <h1
-        className="font-montserrat text-3xl mb-3 text-dark-brown mt-6 md:text-4xl"
+        className="font-montserrat text-3xl mb-6 text-dark-brown mt-6 md:text-4xl"
         data-aos="fade-left"
       >
         MIS XV AÑOS
@@ -34,13 +34,13 @@ const Hero = () => {
       <img
         src={portada}
         alt="foto portada"
-        className="w-[280px] h-[400px] md:w-[330px] md:h-[450px]"
+        className="w-[300px] h-[450px] md:w-[330px] md:h-[450px]"
         data-aos="zoom-in"
       />
       {/* Banner */}
       <div className="">
         <div
-          className="flex items-center justify-evenly bg-banner bg-cover pl-[50px] w-[300px] h-[50px] my-4 md:w-[350px] md:h-[60px] md:pl-[80px] md:justify-center"
+          className="flex items-center justify-evenly bg-banner bg-cover pl-[50px] w-[300px] h-[50px] mt-8 md:w-[350px] md:h-[60px] md:pl-[80px] md:justify-center"
           data-aos="fade-left"
         >
           <h1 className="font-mea text-4xl pb-2 pt-3 text-dark-brown md:text-[75px]">
