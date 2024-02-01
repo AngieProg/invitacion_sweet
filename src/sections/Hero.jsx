@@ -1,5 +1,5 @@
 import { esqDerDorada, esqIzqDorada, portada } from "../assets/images";
-import { separadorDorado } from "../assets/icons";
+//import { separadorDorado } from "../assets/icons";
 //import Song from "../components/Song";
 import Sobre from "./Sobre";
 
