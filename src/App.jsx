@@ -50,9 +50,6 @@ const App = () => {
       <section className="flex justify-center">
         <Agradecimiento />
       </section>
-      <section className="padding">
-        <Confirmacion />
-      </section>
     </main>
   );
 };
