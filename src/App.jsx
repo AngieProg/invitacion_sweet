@@ -47,7 +47,7 @@ const App = () => {
       <section className="padding">
         <Confirmacion />
       </section>
-      <section>
+      <section className="flex justify-center">
         <Agradecimiento />
       </section>
       <section className="padding">

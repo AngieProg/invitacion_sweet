@@ -21,7 +21,7 @@ const Hero = () => {
       <img
         src={esqDerDorada}
         alt="separador"
-        className="absolute bottom-0 right-0 w-[150px] h-[150px] md:w-[300px] md:h-[300px] md:right-[30px] xl:right-[200px] 2xl:right-[380px] "
+        className="absolute bottom-2 right-2 w-[150px] h-[150px] md:w-[300px] md:h-[300px] md:right-[30px] xl:right-[200px] 2xl:right-[380px] "
       />
       <h1
         className="font-montserrat text-3xl mb-6 text-dark-brown mt-6 md:text-4xl"

@@ -20,10 +20,10 @@ const Galeria = () => {
       <img
         src={separador}
         alt="Separador"
-        className="w-[150px] md:w-[300px] md:mb-11"
+        className="w-[150px] md:w-[300px] md:mb-11 mb-5"
       />
       <div className="flex justify-center">
-        <div className="flex justify-center w-[100%] h-[700px] relative items-center md:w-[600px] md:h-[750px]">
+        <div className="flex justify-center w-[100%] h-[600px] relative items-center md:w-[600px] md:h-[750px]">
           <img
             src={flechaIzq}
             alt="flecha izquierda"
@@ -70,7 +70,7 @@ const Galeria = () => {
       <img
         src={separador}
         alt="Separador"
-        className="w-[150px] mt-2 md:mt-10 md:w-[300px] md:mb-11"
+        className="w-[150px] mt-4 md:mt-10 md:w-[300px] md:mb-11"
       />
     </div>
   );
