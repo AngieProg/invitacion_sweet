@@ -47,7 +47,7 @@ const App = () => {
       <section className="padding">
         <Confirmacion />
       </section>
-      <section className="padding-x">
+      <section>
         <Agradecimiento />
       </section>
       <section className="padding">
