@@ -56,7 +56,7 @@ const Sobre = () => {
       <img
         src={isPlaying ? musicPausa : musicPlay}
         alt="menu music"
-        className="w-[28px] h-[28px] object-contain"
+        className="w-[28px] h-[28px] object-contain z-10"
         onClick={handlePlayPause}
       />
       <audio ref={audioRef} src={cancion} />

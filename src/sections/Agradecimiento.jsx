@@ -16,6 +16,7 @@ const Agradecimiento = () => (
         src={familia}
         alt="familia"
         className="w-[350px] h-[350px] md:w-[500px] md:h-[500px]"
+        data-aos="zoom-in"
       />
     </div>
     <img

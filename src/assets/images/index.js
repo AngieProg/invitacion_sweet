@@ -32,6 +32,7 @@ import separadorEspacio from "./separador_espacio.png";
 import photoBackground from "./photoBackground.jpeg";
 import sobreSello from "./sobre.jpg";
 import familia from "./familia.png";
+import magia from "./magia.jpg";
 
 export {
   esqDerDorada,
@@ -39,6 +40,7 @@ export {
   esqIzqEspacio,
   esqDerEspacio,
   esquineroIzq,
+  magia,
   esquineroDer,
   photoBackground,
   sobreSello,
